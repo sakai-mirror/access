@@ -1,17 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>access-web-tool</name>
-	<comment></comment>
-	<projects>
-	</projects>
-	<buildSpec>
-		<buildCommand>
-			<name>org.eclipse.jdt.core.javabuilder</name>
-			<arguments>
-			</arguments>
-		</buildCommand>
-	</buildSpec>
-	<natures>
-		<nature>org.eclipse.jdt.core.javanature</nature>
-	</natures>
+  <name>web</name>
+  <comment/>
+  <projects>
+    <project>sakai-access-impl</project>
+    <project>sakai-entity-util</project>
+    <project>sakai-user-util</project>
+    <project>sakai-util</project>
+    <project>sakai-velocity-tool</project>
+  </projects>
+  <buildSpec>
+    <buildCommand>
+      <name>org.eclipse.jdt.core.javabuilder</name>
+    </buildCommand>
+  </buildSpec>
+  <natures>
+    <nature>org.eclipse.jdt.core.javanature</nature>
+  </natures>
 </projectDescription>
